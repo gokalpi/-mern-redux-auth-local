@@ -1,0 +1,20 @@
+.authBackgroundImage {
+  background: url(../../assets/images/pexels-skylar-kang-6368911.jpg) no-repeat center;
+  background-size: cover;
+  flex: 0 0 auto;
+  width: 58.3333333333%;
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .authBackgroundImage {
+    display: block !important;
+  }
+}
+
+.rightSidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
